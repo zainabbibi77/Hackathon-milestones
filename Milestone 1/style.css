@@ -1,0 +1,78 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: azure;
+margin: 0;
+padding: 150px;
+}
+
+.resume-container{
+    display: flex;
+    background-color: rgb(230, 230, 193);
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgb(71, 23, 115);
+}
+
+.left-section{
+    background-color: rgb(25, 1, 47);
+    color: azure;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    border-right: 5px solid rgb(230, 230, 249);
+}
+
+.profile-picture{
+    width: 160 px;
+    height: 160px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid rgb(151, 151, 201) ;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 23px;
+    padding: 2%;
+    margin: 20px 0px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(19, 19, 153) ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    padding: 4%; 
+    margin: 10 px 0;
+}
+
+.right-section{
+    padding: 3%;
+    width: 50%;
+}
+
+button {
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(19, 19, 153);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+button:hover{
+    background-color: rgb(199, 199, 119);
+}
+
+
+
+
+
